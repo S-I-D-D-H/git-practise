@@ -1,5 +1,12 @@
 {
-  "dependencies": {
+  "name": "git-practice",
+  "version": "1.0.0",
+  "description": "A practice project for Git workflows",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.9"
   }
 }
