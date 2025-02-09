@@ -1,1 +1,17 @@
-This Is The Conflict File
+/**
+ * Resolves conflicts between two strings by merging them intelligently.
+ * @param {string} str1 - The first string.
+ * @param {string} str2 - The second string.
+ * @returns {string} The resolved conflict string.
+ * @throws {TypeError} If either of the inputs is not a string.
+ */
+function resolveConflict(str1, str2) {
+    if (typeof str1 !== 'string' || typeof str2 !== 'string') {
+        throw new TypeError('Both inputs must be strings');
+    }
+
+    // Example conflict resolution logic: concatenate strings with a separator
+    return `${str1.trim()} | ${str2.trim()}`;
+}
+
+module.exports = { resolveConflict };
